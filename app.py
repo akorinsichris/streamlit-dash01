@@ -1,7 +1,8 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import time
+import time # to simulate a real time data, time loop
+import plotly.express as px # interactive charts
 
 # read csv 
 df = pd.read_csv("https://raw.githubusercontent.com/Lexie88rus/bank-marketing-analysis/master/bank.csv")
